@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT. Sejahtera Tani Indonesia — Distributor Pupuk Non Subsidi Makassar</title>
+<meta name="description" content="PT. Sejahtera Tani Indonesia: distributor pupuk non subsidi, pestisida, dan benih di Makassar, Sulawesi Selatan. Konsultasi gratis via WhatsApp.">
+<meta property="og:title" content="PT. Sejahtera Tani Indonesia — Distributor Pupuk Non Subsidi">
+<meta property="og:description" content="Pupuk tunggal, majemuk, organik, pestisida dan benih untuk petani, kios tani, dan perkebunan di Sulawesi.">
+<meta property="og:image" content="https://cdn.orderhero.id/users/6aff1d23064da42bdcf8d9af/business-logo/2026/11/21/ead4438a4d3672a7b3f2fe68.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#1f7a3a;--g2:#15592a;--gl:#e8f5ec;--y:#f4b400;--dark:#0f2d1a;--txt:#2b2b2b;--mut:#6b7280;--bg:#fafaf7}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,sans-serif;color:var(--txt);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--g);color:#fff;padding:12px 26px;border-radius:40px;font-weight:600;font-size:15px;transition:.2s;border:2px solid var(--g)}
+.btn:hover{background:var(--g2);border-color:var(--g2)}
+.btn.out{background:transparent;color:var(--g)}
+.btn.out:hover{background:var(--g);color:#fff}
+.btn.y{background:var(--y);border-color:var(--y);color:var(--dark)}
+section{padding:72px 0}
+.sec-h{text-align:center;max-width:680px;margin:0 auto 42px}
+.sec-h h2{font-size:32px;line-height:1.25;color:var(--dark);font-weight:700}
+.sec-h h2 span{color:var(--g)}
+.sec-h p{color:var(--mut);margin-top:10px}
+.center{text-align:center;margin-top:36px}
+
+/* topbar + header */
+.topbar{background:var(--dark);color:#cfe3d5;font-size:13px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:7px;padding-bottom:7px;gap:12px;flex-wrap:wrap}
+.topbar a{color:#fff;font-weight:500}
+.topbar .soc{display:flex;gap:14px}
+header{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 2px 14px rgba(0,0,0,.06)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:48px;width:48px;object-fit:contain;border-radius:8px}
+.logo b{font-size:16px;color:var(--dark);line-height:1.1;display:block}
+.logo small{font-size:11px;color:var(--g);font-weight:600;letter-spacing:.5px}
+nav ul{display:flex;list-style:none;gap:4px;align-items:center}
+nav>ul>li{position:relative}
+nav>ul>li>a{display:block;padding:10px 14px;font-weight:500;font-size:15px;border-radius:8px}
+nav>ul>li>a:hover{color:var(--g);background:var(--gl)}
+.dd{position:absolute;top:100%;left:0;background:#fff;box-shadow:0 12px 40px rgba(0,0,0,.12);border-radius:14px;padding:22px;display:none;gap:28px;width:640px}
+nav li:hover .dd{display:grid;grid-template-columns:repeat(3,1fr)}
+.dd h5{font-size:13px;color:var(--g);text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px}
+.dd a{display:block;font-size:14px;padding:4px 0;color:#444}
+.dd a:hover{color:var(--g)}
+.burger{display:none;background:none;border:0;font-size:28px;cursor:pointer;color:var(--dark)}
+
+/* hero */
+.hero{background:linear-gradient(120deg,#0f2d1a 0%,#1f7a3a 70%,#2f9b4e 100%);color:#fff;position:relative;overflow:hidden;padding:0}
+.slides{position:relative;min-height:540px}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .7s;display:flex;align-items:center}
+.slide.on{opacity:1;position:relative}
+.slide .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;width:100%;padding-top:60px;padding-bottom:60px}
+.hero .tag{display:inline-block;background:rgba(255,255,255,.15);padding:6px 14px;border-radius:30px;font-size:13px;margin-bottom:16px}
+.hero h1{font-size:48px;line-height:1.15;font-weight:800}
+.hero h1 em{font-style:normal;color:var(--y)}
+.hero p{font-size:17px;opacity:.9;margin:18px 0 28px;max-width:520px}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.hero .btn.out{color:#fff;border-color:#fff}
+.hero .btn.out:hover{background:#fff;color:var(--g)}
+.hero-art{display:flex;justify-content:center}
+.hero-art svg{width:100%;max-width:420px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.3))}
+.arr{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.2);color:#fff;font-size:22px;cursor:pointer}
+.arr:hover{background:rgba(255,255,255,.35)}
+.arr.l{left:14px}.arr.r{right:14px}
+.dots{position:absolute;bottom:20px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:5}
+.dots button{width:10px;height:10px;border-radius:10px;border:0;background:rgba(255,255,255,.4);cursor:pointer;transition:.3s}
+.dots button.on{width:28px;background:var(--y)}
+
+/* stats */
+.stats{background:#fff;margin-top:-1px;padding:0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#fff;border-radius:16px;box-shadow:0 10px 40px rgba(0,0,0,.08);transform:translateY(-40px);padding:26px 10px}
+.stat{text-align:center;border-right:1px solid #eee}
+.stat:last-child{border:0}
+.stat b{display:block;font-size:30px;color:var(--g);font-weight:800}
+.stat span{font-size:14px;color:var(--mut)}
+
+/* why */
+.why{padding-top:30px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.07);transition:.25s}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 40px rgba(0,0,0,.12)}
+.why .thumb{height:170px;display:flex;align-items:center;justify-content:center;font-size:72px}
+.why .body{padding:24px}
+.why h3{font-size:20px;color:var(--dark);margin-bottom:8px}
+.why p{color:var(--mut);font-size:15px}
+.why a.lnk{display:inline-block;margin-top:14px;color:var(--g);font-weight:600}
+
+/* products */
+.products{background:var(--bg)}
+.ptabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
+.ptabs button,.atabs button{border:1.5px solid #d6e5da;background:#fff;padding:8px 18px;border-radius:30px;font-family:inherit;font-size:14px;cursor:pointer;font-weight:500;color:#444}
+.ptabs button.on,.atabs button.on{background:var(--g);color:#fff;border-color:var(--g)}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.prod .pimg{height:220px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,#eef7f0,#d8ecdd)}
+.bag{width:120px;height:160px;border-radius:12px 12px 18px 18px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:800;text-align:center;box-shadow:0 14px 24px rgba(0,0,0,.18);padding:10px}
+.bag:before{content:"";position:absolute;top:8px;left:12px;right:12px;height:6px;border-radius:4px;background:rgba(255,255,255,.35)}
+.bag small{font-size:9px;font-weight:600;opacity:.85;letter-spacing:.5px}
+.bag b{font-size:18px;line-height:1.1;margin:4px 0}
+.bag i{font-style:normal;font-size:10px;background:rgba(255,255,255,.25);padding:2px 8px;border-radius:10px}
+.prod .body{padding:22px}
+.prod .cat{font-size:12px;color:var(--g);font-weight:600;text-transform:uppercase;letter-spacing:.6px}
+.prod h3{font-size:19px;color:var(--dark);margin:4px 0 6px}
+.prod p{font-size:14px;color:var(--mut);min-height:66px}
+.prod .row{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:10px}
+.prod .row a{font-size:14px;font-weight:600;color:var(--g)}
+.prod .row .btn{padding:8px 16px;font-size:13px}
+
+/* crops */
+.cgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.crop{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:1/1;display:flex;align-items:flex-end;padding:18px;color:#fff;font-weight:700;font-size:19px;transition:.25s}
+.crop:hover{transform:scale(1.03)}
+.crop .ic{position:absolute;top:50%;left:50%;transform:translate(-50%,-62%);font-size:84px;filter:drop-shadow(0 8px 12px rgba(0,0,0,.2))}
+.crop:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.45))}
+.crop span{position:relative;z-index:2}
+.crop small{display:block;font-weight:400;font-size:12px;opacity:.9}
+
+/* partners */
+.partners{background:var(--gl)}
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.tcard{background:#fff;border-radius:18px;padding:30px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.tcard .av{width:70px;height:70px;border-radius:50%;background:var(--gl);display:flex;align-items:center;justify-content:center;font-size:34px;margin-bottom:16px;border:3px solid var(--g)}
+.tcard h4{font-size:18px;color:var(--dark)}
+.tcard .sub{font-size:13px;color:var(--g);font-weight:600;margin-bottom:10px}
+.tcard ul{list-style:none;font-size:14px;color:#555}
+.tcard li{padding:5px 0 5px 24px;position:relative}
+.tcard li:before{content:"✓";position:absolute;left:0;color:var(--g);font-weight:700}
+
+/* articles */
+.atabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
+.agrid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.art .aimg{height:150px;display:flex;align-items:center;justify-content:center;font-size:60px}
+.art .body{padding:18px}
+.art .meta{font-size:12px;color:var(--mut);display:flex;justify-content:space-between}
+.art .meta b{color:var(--g);font-weight:600}
+.art h4{font-size:16px;line-height:1.35;color:var(--dark);margin:8px 0}
+.art p{font-size:13.5px;color:var(--mut)}
+.art details summary{list-style:none;color:var(--g);font-weight:600;font-size:14px;margin-top:10px;cursor:pointer}
+.art details summary::-webkit-details-marker{display:none}
+.art details div{font-size:13.5px;color:#444;margin-top:8px;border-top:1px dashed #ddd;padding-top:8px}
+
+/* event / cta */
+.event{padding:0 0 72px}
+.ebox{background:linear-gradient(120deg,var(--g2),var(--g));border-radius:24px;color:#fff;display:grid;grid-template-columns:1.3fr 1fr;overflow:hidden}
+.ebox .l{padding:46px}
+.ebox .tag{display:inline-block;background:var(--y);color:var(--dark);font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px}
+.ebox h3{font-size:30px;line-height:1.25;margin:14px 0 10px}
+.ebox p{opacity:.9;margin-bottom:24px}
+.ebox .r{display:flex;align-items:center;justify-content:center;font-size:130px;background:rgba(255,255,255,.08)}
+
+/* contact */
+.contact{background:var(--bg)}
+.cbox{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch}
+.cinfo{background:#fff;border-radius:20px;padding:36px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.cinfo h3{font-size:24px;color:var(--dark)}
+.cinfo>p{color:var(--mut);margin:8px 0 22px}
+.ci{display:flex;gap:14px;margin-bottom:18px}
+.ci .i{flex:0 0 44px;height:44px;border-radius:12px;background:var(--gl);display:flex;align-items:center;justify-content:center;font-size:20px}
+.ci b{display:block;font-size:14px;color:var(--dark)}
+.ci span{font-size:14px;color:#555;white-space:pre-line}
+.map{border-radius:20px;overflow:hidden;min-height:380px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+
+footer{background:var(--dark);color:#b9cfc0;padding:56px 0 24px;font-size:14px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h5{color:#fff;font-size:15px;margin-bottom:12px}
+footer a{display:block;padding:3px 0}
+footer a:hover{color:#fff}
+.flogo{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.flogo img{height:44px;width:44px;border-radius:8px;background:#fff;object-fit:contain}
+.flogo b{color:#fff;font-size:16px}
+.copy{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:18px;text-align:center;font-size:13px}
+
+/* floating consult */
+.fab{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.fab .lbl{background:#fff;color:var(--dark);font-weight:700;font-size:13px;padding:8px 14px;border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+.fab .lbl em{font-style:normal;color:var(--g)}
+.fab .btns{display:flex;gap:10px}
+.fab a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.25);transition:.2s}
+.fab a:hover{transform:scale(1.08)}
+.fab .wa{background:#25d366}
+.fab .loc{background:var(--g)}
+.fab svg{width:28px;height:28px;fill:#fff}
+
+@media(max-width:960px){
+ nav{position:fixed;top:74px;left:0;right:0;background:#fff;display:none;box-shadow:0 10px 20px rgba(0,0,0,.1);max-height:calc(100vh - 74px);overflow:auto}
+ nav.open{display:block}
+ nav ul{flex-direction:column;align-items:stretch;padding:10px}
+ .dd{position:static;display:none!important;box-shadow:none;width:auto;padding:0 14px 10px}
+ nav li.x .dd{display:grid!important;grid-template-columns:1fr 1fr}
+ .burger{display:block}
+ .slide .wrap{grid-template-columns:1fr;text-align:center}
+ .hero p{margin-left:auto;margin-right:auto}
+ .hero .acts{justify-content:center}
+ .hero h1{font-size:34px}
+ .hero-art svg{max-width:260px}
+ .slides{min-height:720px}
+ .stats .wrap{grid-template-columns:repeat(2,1fr);row-gap:20px}
+ .stat:nth-child(2){border:0}
+ .why-grid,.pgrid,.tgrid{grid-template-columns:1fr 1fr}
+ .cgrid,.agrid{grid-template-columns:1fr 1fr}
+ .cbox,.ebox{grid-template-columns:1fr}
+ .ebox .r{display:none}
+ .fgrid{grid-template-columns:1fr 1fr}
+ .topbar .soc{display:none}
+}
+@media(max-width:600px){
+ .why-grid,.pgrid,.tgrid{grid-template-columns:1fr}
+ .sec-h h2{font-size:26px}
+ .ebox .l{padding:30px}
+ .fgrid{grid-template-columns:1fr}
+ .fab .lbl{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <div>📍 Makassar, Sulawesi Selatan &nbsp;|&nbsp; 📞 <a href="tel:081294477420">0812-9447-7420</a></div>
+  <div class="soc"><a href="#kontak">Lokasi Gudang</a><a href="#produk">Cari Produk</a></div>
+</div></div>
+
+<header><div class="wrap">
+  <a href="#" class="logo">
+    <img src="https://cdn.orderhero.id/users/6aff1d23064da42bdcf8d9af/business-logo/2026/11/21/ead4438a4d3672a7b3f2fe68.jpeg" alt="Logo PT. Sejahtera Tani Indonesia">
+    <div><b>Sejahtera Tani</b><small>PT. SEJAHTERA TANI INDONESIA</small></div>
+  </a>
+  <button class="burger" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav><ul>
+    <li><a href="#">Beranda</a></li>
+    <li class="has"><a href="#produk" onclick="if(innerWidth<960){event.preventDefault();this.parentNode.classList.toggle('x')}">Produk ▾</a>
+      <div class="dd">
+        <div><h5>Pupuk Tunggal</h5><a href="#produk" data-f="tunggal">Nitrogen (Urea, ZA)</a><a href="#produk" data-f="tunggal">Fosfat (SP-36)</a><a href="#produk" data-f="tunggal">Kalium (KCl)</a></div>
+        <div><h5>Pupuk Majemuk</h5><a href="#produk" data-f="majemuk">NPK Granular</a><a href="#produk" data-f="majemuk">NPK Kristal / Soluble</a><a href="#produk" data-f="majemuk">Pupuk Cair</a></div>
+        <div><h5>Lainnya</h5><a href="#produk" data-f="organik">Pupuk Organik &amp; Dolomit</a><a href="#produk" data-f="pestisida">Pestisida</a><a href="#produk" data-f="benih">Benih &amp; Media Tanam</a></div>
+      </div>
+    </li>
+    <li><a href="#tanaman">Sesuai Tanaman</a></li>
+    <li><a href="#mitra">Mitra</a></li>
+    <li><a href="#info">Info Tani</a></li>
+    <li><a href="#kontak">Tentang Kami</a></li>
+    <li><a class="btn" style="padding:9px 20px;margin-left:8px;color:#fff" href="https://wa.me/6281294477420?text=Halo%20PT.%20Sejahtera%20Tani%20Indonesia%2C%20saya%20ingin%20tanya%20produk%20pupuk." target="_blank">Hubungi Kami</a></li>
+  </ul></nav>
+</div></header>
+
+<!-- HERO SLIDER -->
+<section class="hero">
+  <div class="slides">
+    <div class="slide on"><div class="wrap">
+      <div>
+        <span class="tag">🌾 Distributor Pupuk Non Subsidi</span>
+        <h1>Pupuk Berkualitas untuk <em>Panen Melimpah</em> Petani Sulawesi</h1>
+        <p>Pupuk tunggal, majemuk, organik, pestisida dan benih — stok siap kirim dari gudang kami di Makassar untuk petani, kios tani, dan perkebunan.</p>
+        <div class="acts"><a href="#produk" class="btn y">Lihat Produk</a><a href="#kontak" class="btn out">Hubungi Kami</a></div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><circle cx="200" cy="210" r="170" fill="#ffffff" opacity=".08"/><rect x="110" y="70" width="180" height="250" rx="22" fill="#f8fbf7"/><rect x="110" y="70" width="180" height="70" rx="22" fill="#f4b400"/><rect x="110" y="118" width="180" height="22" fill="#f4b400"/><text x="200" y="115" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="26" fill="#0f2d1a">NPK</text><text x="200" y="190" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="34" fill="#1f7a3a">16-16-16</text><text x="200" y="220" text-anchor="middle" font-family="Poppins" font-size="13" fill="#555">Pupuk Majemuk</text><path d="M200 300c-30-20-40-50-20-75 18 20 25 45 20 75z" fill="#2f9b4e"/><path d="M200 300c30-20 40-50 20-75-18 20-25 45-20 75z" fill="#1f7a3a"/><text x="200" y="312" text-anchor="middle" font-family="Poppins" font-size="12" font-weight="600" fill="#1f7a3a">SEJAHTERA TANI</text><ellipse cx="200" cy="350" rx="110" ry="12" fill="#000" opacity=".15"/></svg>
+      </div>
+    </div></div>
+    <div class="slide"><div class="wrap">
+      <div>
+        <span class="tag">🚚 Pengiriman Sulawesi</span>
+        <h1>Melayani Kios Tani &amp; <em>Pembelian Partai Besar</em></h1>
+        <p>Harga bersaing untuk reseller dan kios tani. Pengiriman ke seluruh Sulawesi Selatan dan wilayah sekitarnya.</p>
+        <div class="acts"><a href="https://wa.me/6281294477420?text=Halo%2C%20saya%20ingin%20menjadi%20mitra%20kios%20tani." target="_blank" class="btn y">Jadi Mitra</a><a href="#mitra" class="btn out">Selengkapnya</a></div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><circle cx="200" cy="200" r="170" fill="#fff" opacity=".08"/><rect x="50" y="160" width="200" height="120" rx="12" fill="#f8fbf7"/><text x="150" y="228" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="20" fill="#1f7a3a">SEJAHTERA TANI</text><path d="M250 190h60l40 45v45H250z" fill="#f4b400"/><rect x="268" y="202" width="40" height="30" rx="4" fill="#cfe9ff"/><circle cx="110" cy="290" r="26" fill="#0f2d1a"/><circle cx="110" cy="290" r="11" fill="#ccc"/><circle cx="300" cy="290" r="26" fill="#0f2d1a"/><circle cx="300" cy="290" r="11" fill="#ccc"/><rect x="70" y="120" width="50" height="40" rx="6" fill="#2f9b4e"/><rect x="128" y="120" width="50" height="40" rx="6" fill="#f4b400"/><rect x="186" y="120" width="50" height="40" rx="6" fill="#2f9b4e"/></svg>
+      </div>
+    </div></div>
+    <div class="slide"><div class="wrap">
+      <div>
+        <span class="tag">💬 Konsultasi Gratis</span>
+        <h1>Bingung Dosis Pupuk? <em>Tanya Tim Kami</em></h1>
+        <p>Ceritakan tanaman, luas lahan, dan fase tumbuhnya. Tim kami bantu rekomendasikan jenis dan dosis pupuk yang sesuai.</p>
+        <div class="acts"><a href="https://wa.me/6281294477420?text=Halo%2C%20saya%20ingin%20konsultasi%20pemupukan." target="_blank" class="btn y">Konsultasi via WhatsApp</a></div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><circle cx="200" cy="200" r="170" fill="#fff" opacity=".08"/><rect x="70" y="90" width="210" height="110" rx="24" fill="#f8fbf7"/><path d="M110 200l-10 40 50-40z" fill="#f8fbf7"/><text x="175" y="140" text-anchor="middle" font-family="Poppins" font-size="18" font-weight="700" fill="#0f2d1a">Padi umur 21 HST,</text><text x="175" y="168" text-anchor="middle" font-family="Poppins" font-size="18" font-weight="700" fill="#0f2d1a">pupuk apa ya?</text><rect x="150" y="230" width="190" height="90" rx="24" fill="#f4b400"/><path d="M300 320l20 30-50-30z" fill="#f4b400"/><text x="245" y="282" text-anchor="middle" font-family="Poppins" font-size="18" font-weight="700" fill="#0f2d1a">Kami bantu! 🌱</text></svg>
+      </div>
+    </div></div>
+  </div>
+  <button class="arr l" aria-label="Sebelumnya" onclick="go(-1)">‹</button>
+  <button class="arr r" aria-label="Berikutnya" onclick="go(1)">›</button>
+  <div class="dots"></div>
+</section>
+
+<!-- STATS -->
+<section class="stats"><div class="wrap">
+  <div class="stat"><b>30+</b><span>Jenis Produk</span></div>
+  <div class="stat"><b>6</b><span>Kategori Lengkap</span></div>
+  <div class="stat"><b>Sulsel</b><span>&amp; Sekitarnya</span></div>
+  <div class="stat"><b>Gratis</b><span>Konsultasi Tani</span></div>
+</div></section>
+
+<!-- WHY -->
+<section class="why"><div class="wrap">
+  <div class="sec-h"><h2>Alasan Memilih <span>Sejahtera Tani</span>?</h2><p>Kami hadir untuk memastikan petani mendapatkan pupuk yang tepat, asli, dan tersedia saat dibutuhkan.</p></div>
+  <div class="why-grid">
+    <div class="card"><div class="thumb" style="background:linear-gradient(135deg,#e8f5ec,#c9e7d2)">🧪</div><div class="body"><h3>Produk Asli &amp; Bergaransi</h3><p>Semua produk berasal dari produsen resmi dan terdaftar, sehingga kualitas dan kandungan haranya terjamin.</p></div></div>
+    <div class="card"><div class="thumb" style="background:linear-gradient(135deg,#fff5d6,#ffe49a)">👨‍🌾</div><div class="body"><h3>Layanan Konsultasi Tani</h3><p>Tim kami siap membantu memilih pupuk dan dosis yang sesuai dengan jenis tanaman serta fase pertumbuhannya.</p><a class="lnk" href="https://wa.me/6281294477420?text=Halo%2C%20saya%20ingin%20konsultasi%20pemupukan." target="_blank">Yuk Konsultasi Sekarang →</a></div></div>
+    <div class="card"><div class="thumb" style="background:linear-gradient(135deg,#e5f0ff,#c3dcff)">📦</div><div class="body"><h3>Produk Terlengkap</h3><p>Dari pupuk tunggal, majemuk, organik, hingga pestisida dan benih — semua kebutuhan budidaya dalam satu tempat.</p></div></div>
+  </div>
+</div></section>
+
+<!-- PRODUCTS -->
+<section class="products" id="produk"><div class="wrap">
+  <div class="sec-h"><h2>Produk <span>Unggulan</span> Kami</h2><p>Pilihan pupuk dan sarana produksi pertanian untuk hasil panen yang lebih baik.</p></div>
+  <div class="ptabs">
+    <button class="on" data-f="all">Semua Produk</button>
+    <button data-f="tunggal">Pupuk Tunggal</button>
+    <button data-f="majemuk">Pupuk Majemuk</button>
+    <button data-f="organik">Organik</button>
+    <button data-f="pestisida">Pestisida</button>
+    <button data-f="benih">Benih</button>
+  </div>
+  <div class="pgrid" id="pgrid"></div>
+  <div class="center"><a class="btn out" href="https://wa.me/6281294477420?text=Halo%2C%20boleh%20minta%20daftar%20produk%20dan%20harga%20lengkap%3F" target="_blank">Minta Daftar Produk Lengkap</a></div>
+</div></section>
+
+<!-- CROPS -->
+<section id="tanaman"><div class="wrap">
+  <div class="sec-h"><h2>Atau Pilih <span>Sesuai Tanaman</span> Anda</h2><p>Klik tanaman Anda, kami kirimkan rekomendasi paket pemupukannya lewat WhatsApp.</p></div>
+  <div class="cgrid" id="cgrid"></div>
+</div></section>
+
+<!-- PARTNERS -->
+<section class="partners" id="mitra"><div class="wrap">
+  <div class="sec-h"><h2>Siapa yang Kami <span>Layani</span>?</h2><p>Dari petani perorangan hingga perkebunan, kami siapkan layanan yang sesuai kebutuhan Anda.</p></div>
+  <div class="tgrid">
+    <div class="tcard"><div class="av">👨‍🌾</div><h4>Petani</h4><div class="sub">Pembelian eceran &amp; kelompok tani</div><ul><li>Konsultasi pemupukan gratis</li><li>Rekomendasi sesuai tanaman</li><li>Bisa pesan via WhatsApp</li></ul></div>
+    <div class="tcard"><div class="av">🏪</div><h4>Kios &amp; Toko Tani</h4><div class="sub">Reseller &amp; mitra distribusi</div><ul><li>Harga khusus partai besar</li><li>Stok rutin dan pengiriman terjadwal</li><li>Dukungan materi promosi produk</li></ul></div>
+    <div class="tcard"><div class="av">🌴</div><h4>Perkebunan</h4><div class="sub">Sawit, kakao, kopi, cengkeh</div><ul><li>Penawaran harga proyek</li><li>Pengiriman langsung ke lokasi</li><li>Dokumen pembelian lengkap</li></ul></div>
+  </div>
+  <div class="center"><a class="btn" href="https://wa.me/6281294477420?text=Halo%2C%20saya%20ingin%20menjadi%20mitra%20PT.%20Sejahtera%20Tani%20Indonesia." target="_blank">Daftar Jadi Mitra</a></div>
+</div></section>
+
+<!-- ARTICLES -->
+<section id="info"><div class="wrap">
+  <div class="sec-h"><h2>Info <span>Tani</span></h2><p>Tips budidaya dan pemupukan singkat untuk membantu hasil panen Anda.</p></div>
+  <div class="atabs">
+    <button class="on" data-f="all">Semua</button>
+    <button data-f="Belajar Tani">Belajar Tani</button>
+    <button data-f="Tips Pupuk">Tips Pupuk</button>
+    <button data-f="Hama &amp; Penyakit">Hama &amp; Penyakit</button>
+  </div>
+  <div class="agrid" id="agrid"></div>
+</div></section>
+
+<!-- EVENT / CTA -->
+<section class="event"><div class="wrap">
+  <div class="ebox">
+    <div class="l">
+      <span class="tag">KUNJUNGAN LAPANG</span>
+      <h3>Undang Tim Sejahtera Tani ke Kelompok Tani Anda</h3>
+      <p>Kami bisa hadir untuk sosialisasi pemupukan berimbang dan pengenalan produk bagi kelompok tani dan kios di wilayah Anda.</p>
+      <a class="btn y" href="https://wa.me/6281294477420?text=Halo%2C%20kami%20ingin%20mengundang%20tim%20Sejahtera%20Tani%20untuk%20kunjungan%20lapang." target="_blank">Info Pendaftaran</a>
+    </div>
+    <div class="r">🚜</div>
+  </div>
+</div></section>
+
+<!-- CONTACT -->
+<section class="contact" id="kontak"><div class="wrap">
+  <div class="sec-h"><h2>Tentang <span>Kami</span></h2></div>
+  <div class="cbox">
+    <div class="cinfo">
+      <h3>PT. Sejahtera Tani Indonesia</h3>
+      <p>Distributor pupuk non subsidi, pestisida, dan benih di Makassar. Kami menyediakan produk pertanian berkualitas dari produsen terpercaya untuk mendukung petani Indonesia lebih sejahtera.</p>
+      <div class="ci"><div class="i">📍</div><div><b>Alamat Kantor &amp; Gudang</b><span>Jl. Landak No. 7 &amp; 9, Kel. Labuang Baji, Kec. Mamajang
+Kota Makassar, Sulawesi Selatan 90132
+(Depan pintu masuk UGD RS Labuang Baji)</span></div></div>
+      <div class="ci"><div class="i">📞</div><div><b>Telepon / WhatsApp</b><span><a href="https://wa.me/6281294477420" target="_blank">0812-9447-7420</a></span></div></div>
+      <div class="ci"><div class="i">✉️</div><div><b>Email</b><span><a href="mailto:tryhndyn.ti@gmail.com">tryhndyn.ti@gmail.com</a></span></div></div>
+      <a class="btn" style="margin-top:8px" href="https://www.google.com/maps/search/?api=1&query=Jl.+Landak+No.+7+Labuang+Baji+Mamajang+Makassar" target="_blank">Petunjuk Arah</a>
+    </div>
+    <div class="map"><iframe loading="lazy" title="Peta lokasi" src="https://www.google.com/maps?q=Jl.+Landak+No.+7,+Labuang+Baji,+Mamajang,+Makassar&output=embed"></iframe></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div>
+      <div class="flogo"><img src="https://cdn.orderhero.id/users/6aff1d23064da42bdcf8d9af/business-logo/2026/11/21/ead4438a4d3672a7b3f2fe68.jpeg" alt="Logo"><b>PT. Sejahtera Tani Indonesia</b></div>
+      <p>Distributor pupuk non subsidi, pestisida, dan benih — Makassar, Sulawesi Selatan.</p>
+    </div>
+    <div><h5>Produk</h5><a href="#produk">Pupuk Tunggal</a><a href="#produk">Pupuk Majemuk</a><a href="#produk">Pupuk Organik</a><a href="#produk">Pestisida &amp; Benih</a></div>
+    <div><h5>Menu</h5><a href="#tanaman">Sesuai Tanaman</a><a href="#mitra">Mitra</a><a href="#info">Info Tani</a><a href="#kontak">Tentang Kami</a></div>
+    <div><h5>Hubungi</h5><a href="https://wa.me/6281294477420" target="_blank">WhatsApp 0812-9447-7420</a><a href="mailto:tryhndyn.ti@gmail.com">Email</a><a href="#kontak">Lokasi Gudang</a></div>
+  </div>
+  <div class="copy">© <span id="yr">2026</span> PT. Sejahtera Tani Indonesia. All rights reserved.</div>
+</div></footer>
+
+<!-- FLOATING CONSULT -->
+<div class="fab">
+  <div class="lbl">Konsultasi <em>GRATIS</em> 👇</div>
+  <div class="btns">
+    <a class="loc" href="#kontak" aria-label="Lokasi"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z"/></svg></a>
+    <a class="wa" href="https://wa.me/6281294477420?text=Halo%20PT.%20Sejahtera%20Tani%20Indonesia%2C%20saya%20ingin%20konsultasi." target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.4z"/></svg></a>
+  </div>
+</div>
+
+<script>
+var WA='6281294477420';
+function wa(t){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(t)}
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+/* slider */
+var sl=document.querySelectorAll('.slide'),dots=document.querySelector('.dots'),cur=0,tm;
+sl.forEach(function(_,i){var b=document.createElement('button');b.setAttribute('aria-label','Slide '+(i+1));b.onclick=function(){show(i)};dots.appendChild(b)});
+function show(i){sl[cur].classList.remove('on');dots.children[cur].classList.remove('on');cur=(i+sl.length)%sl.length;sl[cur].classList.add('on');dots.children[cur].classList.add('on');clearInterval(tm);tm=setInterval(function(){go(1)},6000)}
+function go(d){show(cur+d)}
+show(0);
+
+/* products */
+var P=[
+ {f:'tunggal',c:'Pupuk Tunggal · Nitrogen',n:'Urea Non Subsidi',k:'46% N',col:'#2f80ed',d:'Sumber nitrogen tinggi untuk mempercepat pertumbuhan daun dan batang pada fase vegetatif.'},
+ {f:'tunggal',c:'Pupuk Tunggal · Nitrogen',n:'ZA (Amonium Sulfat)',k:'N 21% · S 24%',col:'#f2994a',d:'Mengandung nitrogen dan belerang, cocok untuk bawang, padi, dan tebu.'},
+ {f:'tunggal',c:'Pupuk Tunggal · Fosfat',n:'SP-36',k:'P₂O₅ 36%',col:'#9b51e0',d:'Fosfat untuk merangsang perakaran, pembungaan, dan pembentukan biji.'},
+ {f:'tunggal',c:'Pupuk Tunggal · Kalium',n:'KCl (MOP)',k:'K₂O 60%',col:'#eb5757',d:'Kalium untuk memperkuat batang, meningkatkan bobot dan kualitas buah.'},
+ {f:'majemuk',c:'Pupuk Majemuk · Granular',n:'NPK 16-16-16',k:'Granular',col:'#1f7a3a',d:'Pupuk majemuk seimbang untuk semua jenis tanaman di setiap fase pertumbuhan.'},
+ {f:'majemuk',c:'Pupuk Majemuk · Granular',n:'NPK 15-15-15',k:'Granular',col:'#27ae60',d:'Hara makro lengkap untuk tanaman pangan, hortikultura, dan perkebunan.'},
+ {f:'majemuk',c:'Pupuk Majemuk · Kristal',n:'NPK Soluble',k:'Larut Air',col:'#00a7a7',d:'Mudah larut air, cocok untuk kocor, semprot daun, maupun fertigasi.'},
+ {f:'majemuk',c:'Pupuk Majemuk · Cair',n:'Pupuk Cair Daun',k:'Makro + Mikro',col:'#56ccf2',d:'Nutrisi lengkap lewat daun untuk mendukung pertumbuhan dan pembuahan.'},
+ {f:'organik',c:'Pupuk Organik',n:'Pupuk Organik Granul',k:'Organik',col:'#8d6e63',d:'Memperbaiki struktur tanah dan meningkatkan efisiensi pupuk kimia.'},
+ {f:'organik',c:'Pembenah Tanah',n:'Dolomit',k:'Ca + Mg',col:'#a0a0a0',d:'Menetralkan keasaman tanah serta menyediakan kalsium dan magnesium.'},
+ {f:'pestisida',c:'Pestisida',n:'Insektisida &amp; Fungisida',k:'Berbagai Merek',col:'#c0392b',d:'Pengendalian hama dan penyakit tanaman. Tanyakan jenis yang sesuai masalah Anda.'},
+ {f:'benih',c:'Benih &amp; Media Tanam',n:'Benih Unggul',k:'Padi · Jagung · Sayur',col:'#d4a017',d:'Benih bersertifikat untuk tanaman pangan dan hortikultura.'}
+];
+var pg=document.getElementById('pgrid');
+function renderP(f){pg.innerHTML=P.filter(function(p){return f==='all'||p.f===f}).map(function(p){var nm=p.n.replace(/&amp;/g,'&');return '<div class="card prod"><div class="pimg"><div class="bag" style="background:'+p.col+'"><small>SEJAHTERA TANI</small><b>'+p.n+'</b><i>'+p.k+'</i></div></div><div class="body"><div class="cat">'+p.c+'</div><h3>'+p.n+'</h3><p>'+p.d+'</p><div class="row"><a href="'+wa('Halo, saya ingin info detail & harga produk: '+nm)+'" target="_blank">Lihat Detail →</a><a class="btn" href="'+wa('Halo, saya ingin pesan '+nm+'. Jumlah: ... Lokasi kirim: ...')+'" target="_blank">Pesan</a></div></div></div>'}).join('')}
+function setF(f){document.querySelectorAll('.ptabs button').forEach(function(b){b.classList.toggle('on',b.dataset.f===f)});renderP(f)}
+document.querySelectorAll('.ptabs button').forEach(function(b){b.onclick=function(){setF(b.dataset.f)}});
+document.querySelectorAll('.dd a').forEach(function(a){a.addEventListener('click',function(){setF(a.dataset.f);document.querySelector('nav').classList.remove('open')})});
+renderP('all');
+
+/* crops */
+var C=[['Padi','🌾','#7cb342'],['Jagung','🌽','#f9a825'],['Bawang Merah','🧅','#ad1457'],['Cabai','🌶️','#d32f2f'],['Tomat','🍅','#e53935'],['Kentang','🥔','#8d6e63'],['Semangka','🍉','#2e7d32'],['Kakao &amp; Kopi','☕','#5d4037']];
+document.getElementById('cgrid').innerHTML=C.map(function(c){var nm=c[0].replace(/&amp;/g,'&');return '<a class="crop" style="background:linear-gradient(150deg,'+c[2]+'cc,'+c[2]+')" href="'+wa('Halo, saya petani '+nm+'. Mohon rekomendasi pupuk yang sesuai.')+'" target="_blank"><div class="ic">'+c[1]+'</div><span>'+c[0]+'<small>Lihat rekomendasi →</small></span></a>'}).join('');
+
+/* articles */
+var A=[
+ {c:'Tips Pupuk',e:'⚖️',bg:'#e8f5ec',t:'Mengenal Pemupukan Berimbang',x:'Kenapa N, P, dan K harus diberikan sesuai kebutuhan tanaman.',b:'Nitrogen mendorong daun, fosfat memperkuat akar dan bunga, kalium memperbaiki kualitas buah. Kelebihan satu unsur bisa menghambat penyerapan unsur lain, jadi dosis sebaiknya disesuaikan dengan hasil uji tanah dan fase tanaman.'},
+ {c:'Belajar Tani',e:'🌾',bg:'#fff5d6',t:'Jadwal Pemupukan Padi Sawah',x:'Panduan umum waktu pemupukan dari tanam sampai bunting.',b:'Secara umum pemupukan padi dibagi 3 tahap: dasar (0–7 HST), susulan I (sekitar 21 HST) dan susulan II (sekitar 35–42 HST). Hubungi tim kami untuk rekomendasi dosis sesuai varietas dan lahan Anda.'},
+ {c:'Hama &amp; Penyakit',e:'🐛',bg:'#fde8e8',t:'Mengendalikan Penggerek Batang Padi',x:'Kenali gejala sundep dan beluk sejak dini.',b:'Gejala sundep (pucuk mati) muncul di fase vegetatif, beluk (malai hampa) di fase generatif. Pantau kelompok telur, gunakan varietas tahan, dan aplikasikan insektisida sesuai anjuran label bila populasi melewati ambang.'},
+ {c:'Tips Pupuk',e:'🪨',bg:'#eeeeee',t:'Kapan Tanah Perlu Dolomit?',x:'Tanah asam membuat pupuk tidak terserap maksimal.',b:'Jika pH tanah di bawah 5,5, unsur hara sulit diserap akar. Dolomit membantu menaikkan pH sekaligus menambah kalsium dan magnesium. Aplikasikan sekitar 2–4 minggu sebelum tanam.'},
+ {c:'Belajar Tani',e:'💧',bg:'#e5f0ff',t:'Mengenal Fertigasi',x:'Memupuk sekaligus menyiram lewat sistem irigasi.',b:'Fertigasi memakai pupuk larut air (soluble) yang dialirkan bersama air irigasi tetes. Pemupukan jadi lebih merata dan hemat tenaga, cocok untuk cabai, tomat, dan melon.'},
+ {c:'Tips Pupuk',e:'🏷️',bg:'#f3e8ff',t:'Pupuk Subsidi vs Non Subsidi',x:'Apa bedanya dan kapan memilih pupuk non subsidi?',b:'Pupuk subsidi memiliki kuota dan syarat tertentu dari pemerintah, sedangkan pupuk non subsidi bisa dibeli bebas kapan saja sesuai kebutuhan, dengan pilihan formula yang lebih beragam.'},
+ {c:'Hama &amp; Penyakit',e:'🌧️',bg:'#e0f7fa',t:'Menjaga Cabai di Musim Hujan',x:'Kelembapan tinggi memicu penyakit jamur.',b:'Perbaiki drainase bedengan, gunakan mulsa, pangkas daun bawah untuk sirkulasi udara, dan lakukan penyemprotan fungisida preventif sesuai anjuran.'},
+ {c:'Belajar Tani',e:'🌴',bg:'#e8f5ec',t:'Pemupukan Kelapa Sawit Menghasilkan',x:'Pemupukan dua kali setahun untuk produksi TBS stabil.',b:'Pupuk umumnya diberikan di awal dan akhir musim hujan, ditabur di piringan pohon. Kebutuhan dosis berbeda tergantung umur tanaman dan hasil analisis daun.'}
+];
+var ag=document.getElementById('agrid');
+function renderA(f){ag.innerHTML=A.filter(function(a){return f==='all'||a.c===f}).map(function(a){return '<div class="card art"><div class="aimg" style="background:'+a.bg+'">'+a.e+'</div><div class="body"><div class="meta"><b>'+a.c+'</b><span>Info Tani</span></div><h4>'+a.t+'</h4><p>'+a.x+'</p><details><summary>Baca Selengkapnya →</summary><div>'+a.b+'</div></details></div></div>'}).join('')}
+document.querySelectorAll('.atabs button').forEach(function(b){b.onclick=function(){document.querySelectorAll('.atabs button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');renderA(b.dataset.f.replace(/&amp;/g,'&'))}});
+A.forEach(function(a){a.c=a.c.replace(/&amp;/g,'&')});
+renderA('all');
+
+/* close mobile nav on link click */
+document.querySelectorAll('nav a[href^="#"]').forEach(function(a){if(!a.parentNode.classList.contains('has'))a.addEventListener('click',function(){document.querySelector('nav').classList.remove('open')})});
+</script>
+</body>
+</html>
